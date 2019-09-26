@@ -20,6 +20,15 @@
         "tool",
         "code"
       ]
+    },
+    {
+      "login": "chrisachard",
+      "name": "chrisachard",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/34973?v=4",
+      "profile": "https://github.com/chrisachard",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
