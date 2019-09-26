@@ -1,0 +1,66 @@
+{
+  "name": "@use-it/prev-prop",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.1.0",
+  "description": "A custom React Hook that maintains a previous value for a prop (or any other value).",
+  "main": "dist/prev-prop.js",
+  "umd:main": "dist/prev-prop.umd.js",
+  "module": "dist/prev-prop.m.js",
+  "source": "src/index.js",
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donavon/use-prev-prop.git"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "lint": "eslint src",
+    "test": "jest --verbose=false --coverage",
+    "test:watch": "jest --verbose=false --coverage --watch --runInBand",
+    "prebuild": "npm run lint && npm t && rimraf dist",
+    "build": "microbundle -o dist/ --sourcemap false --target web",
+    "dev": "microbundle watch -o dist/ --sourcemap false --compress false"
+  },
+  "keywords": [
+    "react-hooks",
+    "hooks",
+    "react",
+    "utils",
+    "lib",
+    "prev-prop"
+  ],
+  "author": "donavon",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@testing-library/react-hooks": "^2.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-amex": "^9.0.0",
+    "jest": "^24.7.1",
+    "jest-dom": "^3.1.4",
+    "microbundle": "^0.11.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "^16.9.0",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+      }
+    }
+  }
+}
