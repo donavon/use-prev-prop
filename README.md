@@ -3,6 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 A custom React Hook that maintains a previous value for a prop (or any other value).
+Based on [a tweet](https://twitter.com/chrisachard/status/1177308524877144065)
+by [Chris Achard](https://github.com/chrisachard).
 
 ## Installation
 
