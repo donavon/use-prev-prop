@@ -1,9 +1,8 @@
 # @use-it/prev-prop
+[![npm version](https://badge.fury.io/js/%40use-it%2Fprev-prop.svg)](https://badge.fury.io/js/%40use-it%2Fprev-prop)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 A custom React Hook that maintains a previous value for a prop (or any other value).
-
-[![npm version](https://badge.fury.io/js/%40use-it%2Fprev-prop.svg)](https://badge.fury.io/js/%40use-it%2Fprev-prop)
 
 ## Installation
 
@@ -35,14 +34,14 @@ Here are the parameters that you can use.
 
 ### Return
 
-This hook returns the previous value of the prop.
+This hook returns the previous value of the prop. Initially, this value will be `undefined`.
 
 ## Example
 
 Let's look at some sample code. Here is a `Count` component that displays the count and the previous count.
 
 ```js
-import React, { useState } from 'react';
+import React from 'react';
 import usePrevProp from '@use-it/prev-prop';
 
 const Count = ({ count }) => {
