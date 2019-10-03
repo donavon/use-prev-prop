@@ -29,6 +29,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "lemol",
+      "name": "Leza Morais Lutonda",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1035379?v=4",
+      "profile": "http://lemol.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,6 +1,6 @@
 # @use-it/prev-prop
 [![npm version](https://badge.fury.io/js/%40use-it%2Fprev-prop.svg)](https://badge.fury.io/js/%40use-it%2Fprev-prop)
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 A custom React Hook that maintains a previous value for a prop (or any other value).
 Based on [a tweet](https://twitter.com/chrisachard/status/1177308524877144065)
@@ -74,6 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://donavon.com"><img src="https://avatars3.githubusercontent.com/u/887639?v=4" width="100px;" alt="Donavon West"/><br /><sub><b>Donavon West</b></sub></a><br /><a href="#infra-donavon" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/donavon/use-prev-prop/commits?author=donavon" title="Tests">⚠️</a> <a href="#example-donavon" title="Examples">💡</a> <a href="#ideas-donavon" title="Ideas, Planning, & Feedback">🤔</a> <a href="#maintenance-donavon" title="Maintenance">🚧</a> <a href="#review-donavon" title="Reviewed Pull Requests">👀</a> <a href="#tool-donavon" title="Tools">🔧</a> <a href="https://github.com/donavon/use-prev-prop/commits?author=donavon" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/chrisachard"><img src="https://avatars2.githubusercontent.com/u/34973?v=4" width="100px;" alt="chrisachard"/><br /><sub><b>chrisachard</b></sub></a><br /><a href="#ideas-chrisachard" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://lemol.github.io"><img src="https://avatars2.githubusercontent.com/u/1035379?v=4" width="100px;" alt="Leza Morais Lutonda"/><br /><sub><b>Leza Morais Lutonda</b></sub></a><br /><a href="https://github.com/donavon/use-prev-prop/commits?author=lemol" title="Code">💻</a></td>
   </tr>
 </table>
 
